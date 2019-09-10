@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="contrato.css" rel="stylesheet" type="text/css">
+   
+    <title>Contratação</title>
+</head>
+
+
+<body>
+    <!--=================================================CABEÇALHO===============================================-->
+    <header>
+        <nav>
+            <div class="section-container">
+                <ul>
+                    <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index1.html" class="active"><img src="img/logo.png" height="50em"/></a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="faleconosco.html" class="active"><img src="img/faleconosco.png" height="50em"/></a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="contrato.html" title="Contratação"  height="60em">Contratação</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html"><img src="img/login.png"  title="Login"  height="50em"/></a></li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+    </header>
+
+
+
+
+    <!--======================================================CORPO=======================================================-->
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        
+            <h2 class="orcamento">Orçamento</h2>
+
+            <div id="cadastro1">
+                <form method="GET" action="index1.html" class="cadcol" class="cadcol" >
+
+                    <div id=cadcol1>
+                        Data do Evento:<br>
+                        <input type="date" value="20/05/2019"name="date">
+                        <br>        
+                        <br>    
+                        Convidados:<br>
+                        <input type="number" name="Convidados" value="250">
+                        <br>
+                        <br>   
+                        Tipo de Evento:<br>
+                        <input type="radio" name="Evento" checked> Casamento<br>
+                        <input type="radio" name="Evento" checked> Batizado<br>
+                        <input type="radio" name="Evento" checked> 15 Anos<br>
+                        <input type="radio" name="Evento" checked> Formatura<br>
+                        <input type="radio" name="Evento" checked> Corporativo<br>
+                        <input type="radio" name="Evento" checked> Outro
+                        <br>
+                        <br>
+                            <div>
+                                Evento:<br>                                
+                                <input type="checkbox" name="Público" checked> Público<br>
+                                <input type="checkbox" name="Privado" checked> Privado
+                            </div>    
+                    </div> 
+                    
+                    <div id=cadcol2>  
+                        Serviços Contratados:<br>                        
+                        <br>
+                        <input type="checkbox" name="Serviço" checked> Estacionamento<br>
+                        <br> 
+                        <input type="checkbox" name="Serviço" checked> Som<br>
+                        <br> 
+                        <input type="checkbox" name="Serviço" checked> Iluminação<br>
+                        <br> 
+                        <br> 
+                        Pagamento:<br>
+                        <!--<img src="img/pagamento.png" width="20%"><br>-->
+                        <input type="checkbox" name="cartão" checked> Cartão<br>
+                        <input type="checkbox" name="Boleto" checked> Boleto<br>
+                        <br>
+                        <br>
+                        Total:<br>
+                        <input type="text" name="Valor">
+                        <br> 
+                        <br> 
+                    </div>               
+                </form> 
+
+
+            </div> 
+
+ 
+
+    </main>
+    <!--=========================================================RODAPÉ=======================================================-->
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="rodape">
+            <address>
+                Avenida de Limeira, 539 - Campos Elíseos - SP
+                <br />
+                roletop@email.com
+                <br />
+                11 1234 6789
+            </address>
+            <a href="#">Voltar para o topo!</a>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
